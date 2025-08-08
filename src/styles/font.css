@@ -1,0 +1,11 @@
+/* Import Dancing Script font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* Font family configuration */
+.font-dancing {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Already at maximum weight of 700 */
+  font-style: normal;
+  text-shadow: 0px 0px 1px currentColor; /* Adding text shadow for a bolder appearance */
+}

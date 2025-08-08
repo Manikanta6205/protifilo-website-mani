@@ -1,0 +1,55 @@
+:root {
+  /* Light Theme Colors - updated for better visibility */
+  --light-bg: #f5f5f5;
+  --light-text: #333333;
+  --light-primary: #2563eb;
+  --light-secondary: #0f766e;
+  --light-accent: #d946ef;
+  --light-muted: #6b7280;
+  --light-border: #94a3b8;
+  --light-card-bg: #ffffff;
+  --light-input-bg: #f8fafc;
+  --light-input-border: #64748b;
+  --light-cursor: #4b5563;
+}
+
+/* Light Theme Styles */
+.light {
+  background-color: var(--light-bg);
+  color: var(--light-text);
+}
+
+.light .border {
+  border-color: var(--light-border) !important;
+}
+
+.light input, 
+.light textarea {
+  background-color: var(--light-input-bg);
+  border-color: var(--light-input-border);
+  color: var(--light-text);
+}
+
+.light .card {
+  background-color: var(--light-card-bg);
+  border: 1px solid var(--light-border);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.light button {
+  background-color: var(--light-primary);
+  color: white;
+}
+
+.light a {
+  color: var(--light-primary);
+}
+
+.light h1, .light h2, .light h3 {
+  color: var(--light-text);
+}
+
+/* Cursor style for light theme */
+.light .cursor {
+  background-color: var(--light-cursor);
+}
