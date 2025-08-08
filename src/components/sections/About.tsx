@@ -89,15 +89,10 @@ export default function About() {
               <h3 className="text-2xl font-semibold mb-4 gradient-text">Who am I?</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                I'm Manikanta — a developer, designer, storyteller, and tech community enthusiast from VNRVJIET. 
-                I'm currently pursuing B.Tech in CSE (2023-2027), and I spend my days shaping digital experiences that are as visually striking as they are technically sound.
+                  I'm Manikanta — a passionate computer science student at VNRVJIET (2023–2027), specializing in software development, AI, and ML. I thrive on solving real-world problems, exploring cutting-edge technologies, and building meaningful digital experiences. From crafting AI-powered tools to leading community-driven events, I aim to blend creativity, curiosity, and technical precision into every project I take on.
                 </p>
                 <p>
-                  From leading college hackathons to crafting AI-powered platforms and community-driven designathons, I live for moments where innovation meets impact. 
-                  I love turning blank screens into meaningful user journeys — backed by clean code, framer-motion flair, and just a dash of ✨ chaos.
-                </p>
-                <p className="text-sm text-muted-foreground/70 italic">
-                  Tech stacks change, but creativity, curiosity, and consistency are my constants.
+                  Whether it's full-stack development, visual storytelling, or innovation through collaboration — I bring enthusiasm, leadership, and a spark of imagination to every initiative I'm part of.
                 </p>
               </div>
             </motion.div>

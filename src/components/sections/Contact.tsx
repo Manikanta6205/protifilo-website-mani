@@ -7,13 +7,13 @@ import { useToast } from '@/hooks/use-toast';
 const socialLinks = [
 	{
 		name: 'GitHub',
-		url: 'https://github.com/ManikantaPendela',
+		url: 'https://github.com/Manikanta6205',
 		icon: '🐙',
 		gradient: 'from-gray-400 to-gray-600',
 	},
 	{
 		name: 'LinkedIn',
-		url: 'https://www.linkedin.com/in/manikanta-pendela/',
+		url: 'https://www.linkedin.com/in/pendela-manikanta/',
 		icon: '💼',
 		gradient: 'from-blue-500 to-blue-700',
 	},
@@ -24,8 +24,8 @@ const socialLinks = [
 		gradient: 'from-red-400 to-pink-500',
 	},
 	{
-		name: 'Phone: 9032050633',
-		url: 'tel:+919032050633',
+		name: 'Phone: 9640729920',
+		url: 'tel:+919640729920',
 		icon: '📱',
 		gradient: 'from-green-400 to-green-600',
 	},

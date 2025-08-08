@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     title: "DharmaSetu",
-    description: "An AI-powered legal assistant platform for civic governance, with features like chatbot, case outcome predictor, and dispute resolution advisor.",
+    description: "An AI legal assistant for civic governance with chatbot, outcome predictor, and dispute resolution tools.",
     image: "Dharmasetu.webp",
     technologies: ["Next.js", "Flask", "MongoDB", "Langchain", "Ollama"],
-    githubUrl: "https://github.com/ManikantaPendela/Dharmasetu",
+    githubUrl: "https://github.com/AdithyaVarma28/DharmaSetu.git",
     liveUrl: "https://dharmasetu.vercel.app/",
     gradient: "from-cyan-400 to-blue-500"
   },
@@ -22,7 +22,7 @@ const projects = [
     gradient: "from-blue-500 to-purple-500"
   },
   {
-    title: "Blogosphere",
+    title: "DevScribe – Blog App",
     description: "A multi-role blogging platform with secure login, content management, and Markdown editor.",
     image: "Blogsphere.webp",
     technologies: ["MongoDB", "React", "Node.js", "Express"],
