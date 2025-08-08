@@ -7,19 +7,19 @@ import { useToast } from '@/hooks/use-toast';
 const socialLinks = [
 	{
 		name: 'GitHub',
-		url: 'https://github.com/Abhinavpapini',
+		url: 'https://github.com/ManikantaPendela',
 		icon: '🐙',
 		gradient: 'from-gray-400 to-gray-600',
 	},
 	{
 		name: 'LinkedIn',
-		url: 'https://www.linkedin.com/in/abhinav-papini/',
+		url: 'https://www.linkedin.com/in/manikanta-pendela/',
 		icon: '💼',
 		gradient: 'from-blue-500 to-blue-700',
 	},
 	{
-		name: 'Email: papiniabhinav@gmail.com',
-		url: 'mailto:papiniabhinav@gmail.com',
+		name: 'Email: pendelamanikanta@gmail.com',
+		url: 'mailto:pendelamanikanta@gmail.com',
 		icon: '📧',
 		gradient: 'from-red-400 to-pink-500',
 	},
@@ -37,8 +37,8 @@ export default function Contact() {
 	const downloadResume = () => {
 		// Create a link to download the resume
 		const link = document.createElement('a');
-		link.href = '/Papini Abhinav.pdf';
-		link.download = 'Papini Abhinav.pdf';
+		link.href = '/Pendela Manikanta.pdf';
+		link.download = 'Pendela Manikanta.pdf';
 		document.body.appendChild(link);
 		link.click();
 		document.body.removeChild(link);
@@ -146,12 +146,12 @@ export default function Contact() {
 					className="mt-20 text-center border-t border-border/50 pt-8"
 				>
 					<p className="text-muted-foreground">
-						© 2024 Papini Abhinav. Built with ❤️ using React, TypeScript, and Tailwind
+						© 2024 Pendela Manikanta. Built with ❤️ using React, TypeScript, and Tailwind
 						CSS.
 					</p>
 					<motion.div className="mt-4" whileHover={{ scale: 1.05 }}>
 						<span className="text-2xl font-greatVibes gradient-text font-bold">
-							&lt;Papini Abhinav /&gt;
+							&lt;Pendela Manikanta /&gt;
 						</span>
 					</motion.div>
 				</motion.div>

@@ -8,7 +8,7 @@ const projects = [
     description: "An AI-powered legal assistant platform for civic governance, with features like chatbot, case outcome predictor, and dispute resolution advisor.",
     image: "Dharmasetu.webp",
     technologies: ["Next.js", "Flask", "MongoDB", "Langchain", "Ollama"],
-    githubUrl: "https://github.com/Abhinavpapini/Dharmasetu",
+    githubUrl: "https://github.com/ManikantaPendela/Dharmasetu",
     liveUrl: "https://dharmasetu.vercel.app/",
     gradient: "from-cyan-400 to-blue-500"
   },
@@ -17,7 +17,7 @@ const projects = [
     description: "A data-driven dashboard analyzing gym member activity using a CSV dataset and beautiful data visuals.",
     image: "Gym.webp",
     technologies: ["React", "Pandas", "Flask", "Chart.js"],
-    githubUrl: "https://github.com/Abhinavpapini/gym-pulse",
+    githubUrl: "https://github.com/ManikantaPendela/gym-pulse",
     liveUrl: "https://gym-pulse-eight.vercel.app/",
     gradient: "from-blue-500 to-purple-500"
   },
@@ -26,7 +26,7 @@ const projects = [
     description: "A multi-role blogging platform with secure login, content management, and Markdown editor.",
     image: "Blogsphere.webp",
     technologies: ["MongoDB", "React", "Node.js", "Express"],
-    githubUrl: "https://github.com/Abhinavpapini/BlogSphere",
+    githubUrl: "https://github.com/ManikantaPendela/BlogSphere",
     liveUrl: "https://blog-sphere-hazel-eta.vercel.app/",
     gradient: "from-purple-500 to-pink-500"
   },
@@ -35,7 +35,7 @@ const projects = [
     description: "Official website for the Ecficio entrepreneurship fest, with event showcase and registration features.",
     image: "Ecficio.webp",
     technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    githubUrl: "https://github.com/Abhinavpapini/Ecficio",
+    githubUrl: "https://github.com/ManikantaPendela/Ecficio",
     liveUrl: "https://ecficio-vj.vercel.app/",
     gradient: "from-pink-500 to-red-500"
   },
@@ -44,7 +44,7 @@ const projects = [
     description: "Fun and interactive arcade-style game using OOP and Turtle graphics in Python.",
     image: "arcade.webp",
     technologies: ["Python", "Turtle", "OOP"],
-    githubUrl: "https://github.com/Abhinavpapini/Pixel-Paradise-",
+    githubUrl: "https://github.com/ManikantaPendela/Pixel-Paradise-",
     liveUrl: "https://google.com",
     gradient: "from-red-500 to-orange-500"
   },
@@ -166,7 +166,7 @@ export default function Projects() {
         >
           <p className="text-muted-foreground mb-6">Want to see more of my work?</p>
           <motion.a
-            href="https://github.com/Abhinavpapini"
+            href="https://github.com/ManikantaPendela"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-full font-medium text-lg hover-glow transition-all duration-300"

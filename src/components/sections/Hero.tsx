@@ -83,9 +83,9 @@ export default function Hero() {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="glass rounded-2xl px-8 py-6 backdrop-blur-xl border border-cyan-500/20">
-              <h1 className="text-5xl md:text-7xl font-greatVibes text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-cyan-500 to-purple-600 font-bold">
-                &lt;Papini Abhinav /&gt;
+            <div className="glass rounded-2xl px-4 md:px-8 py-4 md:py-6 backdrop-blur-xl border border-cyan-500/20">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-greatVibes text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-cyan-500 to-purple-600 font-bold whitespace-nowrap">
+                &lt;Pendela Manikanta /&gt;
               </h1>
             </div>
             

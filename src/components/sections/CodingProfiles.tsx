@@ -5,8 +5,8 @@ import { Code, Award, BarChart } from "lucide-react";
 const platformsData = [
   {
     name: "LeetCode",
-    username: "papiniabhinav",
-    profileUrl: "https://leetcode.com/u/papiniabhinav/",
+    username: "pendelamanikanta",
+    profileUrl: "https://leetcode.com/u/pendelamanikanta/",
     stats: [
       { label: "Problems Solved", value: "100+" },
       { label: "Contest Rating", value: "1600+" },
@@ -18,8 +18,8 @@ const platformsData = [
   },
   {
     name: "CodeChef",
-    username: "papiniabhinav",
-    profileUrl: "https://www.codechef.com/users/papiniabhinav",
+    username: "pendelamanikanta",
+    profileUrl: "https://www.codechef.com/users/pendelamanikanta",
     stats: [
       { label: "Max Rating", value: "1550+" },
       { label: "Division", value: "Div 2" },
@@ -31,8 +31,8 @@ const platformsData = [
   },
   {
     name: "Codeforces",
-    username: "abhinavpapini",
-    profileUrl: "https://codeforces.com/profile/abhinavpapini",
+    username: "manikantapendela",
+    profileUrl: "https://codeforces.com/profile/manikantapendela",
     stats: [
       { label: "Max Rating", value: "1200+" },
       { label: "Rank", value: "Specialist" },

@@ -61,8 +61,8 @@ export default function About() {
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 rounded-3xl animate-pulse opacity-75" />
                 <div className="absolute inset-2 bg-background rounded-3xl overflow-hidden">
                   <img
-                    src="abhinav.webp"
-                    alt="Papini Abhinav"
+                    src="manikanta.webp"
+                    alt="Pendela Manikanta"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -89,7 +89,7 @@ export default function About() {
               <h3 className="text-2xl font-semibold mb-4 gradient-text">Who am I?</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                I'm Abhinav — a developer, designer, storyteller, and tech community enthusiast from VNRVJIET. 
+                I'm Manikanta — a developer, designer, storyteller, and tech community enthusiast from VNRVJIET. 
                 I'm currently pursuing B.Tech in CSE (2023-2027), and I spend my days shaping digital experiences that are as visually striking as they are technically sound.
                 </p>
                 <p>

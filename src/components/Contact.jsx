@@ -29,9 +29,9 @@ const Contact = () => {
         "template_k2ga7od",
         {
           from_name: form.name,
-          to_name: "Papini Abhinav",
+          to_name: "Pendela Manikanta",
           from_email: form.email,
-          to_email: "papiniabhinav@gmail.com",
+          to_email: "pendelamanikanta@gmail.com",
           message: form.message,
         },
         "uEfCjPbOKtPcObJHm"
@@ -114,7 +114,7 @@ const Contact = () => {
             </button>
             
             <a 
-              href="/Papini Abhinav.pdf" 
+              href="/Pendela Manikanta.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-primary"
@@ -130,7 +130,7 @@ const Contact = () => {
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >        <div className="h-full w-full bg-tertiary rounded-2xl overflow-hidden flex items-center justify-center">
           <div className="text-white text-center p-8">
-            <p className="text-xl mb-2">Email: <a href="mailto:papiniabhinav@gmail.com" className="underline hover:text-emerald-500">papiniabhinav@gmail.com</a></p>
+            <p className="text-xl mb-2">Email: <a href="mailto:pendelamanikanta@gmail.com" className="underline hover:text-emerald-500">pendelamanikanta@gmail.com</a></p>
             <p className="text-xl">Phone: <a href="tel:+919032050633" className="hover:text-emerald-500">9032050633</a></p>
           </div>
         </div>

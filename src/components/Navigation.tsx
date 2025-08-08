@@ -6,6 +6,37 @@ import { ThemeToggle } from './ThemeToggle';
 // Import Dancing Script font
 import '../styles/font.css';
 
+// Typewriter component for the logo
+const TypewriterText = ({ text, delay = 0 }: { text: string; delay?: number }) => {
+  const [displayedText, setDisplayedText] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const startDelay = setTimeout(() => {
+      if (currentIndex < text.length) {
+        const timer = setTimeout(() => {
+          setDisplayedText(prev => prev + text[currentIndex]);
+          setCurrentIndex(prev => prev + 1);
+        }, 100); // Typing speed (100ms per character)
+        
+        return () => clearTimeout(timer);
+      }
+    }, delay);
+
+    return () => clearTimeout(startDelay);
+  }, [currentIndex, text, delay]);
+
+  return (
+    <span className="text-3xl font-dancing gradient-text font-bold">
+      &lt;{displayedText}
+      {currentIndex < text.length && (
+        <span className="animate-pulse">|</span>
+      )}
+      {currentIndex >= text.length && ' />'} 
+    </span>
+  );
+};
+
 const navItems = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
@@ -67,13 +98,11 @@ export default function Navigation({ showLogo = true }: NavigationProps) {
           <motion.div
             className="flex items-center"
             whileHover={{ scale: 1.05 }}
-            initial={{ scale: 0, rotate: -180 }}
-            animate={{ scale: 1, rotate: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
           >
-            <span className="text-3xl font-dancing gradient-text font-bold">
-              &lt;Abhinav /&gt;
-            </span>
+            <TypewriterText text="Manikanta" delay={500} />
           </motion.div>
 
           {/* Desktop Navigation */}
