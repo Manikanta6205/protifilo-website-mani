@@ -13,11 +13,11 @@ const projects = [
     gradient: "from-cyan-400 to-blue-500"
   },
   {
-    title: "Gym Analytics App",
-    description: "A data-driven dashboard analyzing gym member activity using a CSV dataset and beautiful data visuals.",
+    title: "fitness chatbot",
+    description: "A data-driven chatbot providing fitness advice and tracking gym member activity.",
     image: "Gym.webp",
     technologies: ["React", "Pandas", "Flask", "Chart.js"],
-    githubUrl: "https://github.com/ManikantaPendela/gym-pulse",
+    githubUrl: "https://github.com/Manikanta6205/fitness-chatbot",
     liveUrl: "https://gym-pulse-eight.vercel.app/",
     gradient: "from-blue-500 to-purple-500"
   },
@@ -166,7 +166,7 @@ export default function Projects() {
         >
           <p className="text-muted-foreground mb-6">Want to see more of my work?</p>
           <motion.a
-            href="https://github.com/ManikantaPendela"
+            href="https://github.com/Manikanta6205"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 text-white rounded-full font-medium text-lg hover-glow transition-all duration-300"

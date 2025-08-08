@@ -18,8 +18,8 @@ const socialLinks = [
 		gradient: 'from-blue-500 to-blue-700',
 	},
 	{
-		name: 'Email: pendelamanikanta@gmail.com',
-		url: 'mailto:pendelamanikanta@gmail.com',
+		name: 'Email: pendelamanikanta6205@gmail.com',
+		url: 'mailto:pendelamanikanta6205@gmail.com',
 		icon: '📧',
 		gradient: 'from-red-400 to-pink-500',
 	},
@@ -146,8 +146,7 @@ export default function Contact() {
 					className="mt-20 text-center border-t border-border/50 pt-8"
 				>
 					<p className="text-muted-foreground">
-						© 2024 Pendela Manikanta. Built with ❤️ using React, TypeScript, and Tailwind
-						CSS.
+						© 2024 Pendela Manikanta. Built with ❤️.
 					</p>
 					<motion.div className="mt-4" whileHover={{ scale: 1.05 }}>
 						<span className="text-2xl font-greatVibes gradient-text font-bold">
