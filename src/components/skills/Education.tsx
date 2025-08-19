@@ -41,7 +41,7 @@ const Education = () => {
                 className="inline-block px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 text-cyan-400 rounded-full border border-cyan-500/30"
                 whileHover={{ scale: 1.05 }}
               >
-                <span className="font-semibold">CGPA: 9.5</span>
+                <span className="font-semibold">CGPA: 9.3</span>
               </motion.div>
             </div>
           </div>

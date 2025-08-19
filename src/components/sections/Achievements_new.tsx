@@ -23,10 +23,10 @@ const achievements = [
     fileLink: '#',
   },
   {
-    title: 'NPTEL – Python (Silver Medal)',
+    title: 'NPTEL – Python (Top 2% of the course)',
     award: 'Top 2% Ranking',
     description:
-      'Ranked in the Top 2% of the course, demonstrating exceptional performance in Python programming fundamentals.',
+      'Demonstrating exceptional performance in Python programming fundamentals.',
     date: 'April 2024',
     icon: '🥈',
     gradient: 'from-yellow-400 to-orange-500',

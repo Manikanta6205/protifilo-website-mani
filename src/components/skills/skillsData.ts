@@ -8,7 +8,6 @@ export const programmingLanguages = [
   { name: "HTML5", icon: "🌐" },
   { name: "CSS3", icon: "🎨" },
   { name: "SQL", icon: "📊" },
-  { name: "Shell Script", icon: "🐚" }
 ];
 
 export const frameworks = [
@@ -29,8 +28,6 @@ export const aiMlTech = [
   { name: "HuggingFace", icon: "🤗" },
   { name: "Pandas", icon: "🐼" },
   { name: "NumPy", icon: "📐" },
-  { name: "Scikit-Learn", icon: "📊" },
-  { name: "OpenCV", icon: "👁️" },
   { name: "OpenAI", icon: "🤖" },
   { name: "Ollama", icon: "🦙" }
 ];
@@ -42,10 +39,8 @@ export const tools = [
   { name: "AWS", icon: "☁️" },
   { name: "Firebase", icon: "🔥" },
   { name: "MongoDB", icon: "🍃" },
-  { name: "PostgreSQL", icon: "🐘" },
   { name: "Vercel", icon: "▲" },
   { name: "Figma", icon: "🎨" },
-  { name: "VS Code", icon: "🖋️" }
 ];
 
 export const design = [

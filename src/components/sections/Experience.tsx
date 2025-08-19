@@ -26,7 +26,7 @@ const experiences = [
   {
     company: "Freelance & Campus Projects",
     position: "Frontend & Design Developer",
-    period: "2023 - 2025",
+    period: "2023 - 25",
     location: "Remote / Campus",
     description: "Worked on a variety of real-world projects like event websites, chatbot solutions, and legal aid tools. Emphasized clean UI, accessibility, and bringing functionality to life with engaging interfaces.",
     technologies: ["React", "Tailwind CSS", "Figma", "Flask", "Langflow"],
@@ -34,22 +34,22 @@ const experiences = [
     color: "from-cyan-500 to-purple-500"
   },
   {
-  company: "CSI VNR Student Chapter",
-  position: "Core Commitee Member",
+  company: "Multi-Media Head",
+  position: "Computer Society of India Student Chapter VNRVJIET",
   period: "2022 - Present",
   location: "VNRVJIET",
   description: "Contributed to club-led tech events and designathons. Handled web design, coordinated online infrastructure, and helped in judging and evaluation workflows.",
-  technologies: ["Event Planning", "Web Development", "Figma", "Tailwind CSS"],
+  technologies: ["Event Planning", "Web Development", "Figma"],
   logo: "💡",
   color: "from-blue-500 to-teal-500"
 },
 {
   company: "VJMUNSOC & Stentorian",
-  position: "Video Editor & USG of Media",
+  position: "Video Editor & USG of Technology",
   period: "2023 - Present",
   location: "VNRVJIET",
   description: "Active in both the MUN and literary wings—participated in debates, wrote for college publications, and contributed to event scripts and editorial content.",
-  technologies: ["Public Speaking", "Writing", "Editing", "Research"],
+  technologies: ["Public Speaking", "Writing", "Editing", "Research", "Technology"],
   logo: "🗣️",
   color: "from-rose-500 to-purple-500"
 }

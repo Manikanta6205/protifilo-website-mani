@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Manikanta from '/Pendela Manikanta.webp';
 
 const reflectiveAnswers = [
   {
@@ -61,7 +62,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 rounded-3xl animate-pulse opacity-75" />
                 <div className="absolute inset-2 bg-background rounded-3xl overflow-hidden">
                   <img
-                    src="manikanta.webp"
+                    src={Manikanta}
                     alt="Pendela Manikanta"
                     className="w-full h-full object-cover"
                   />
